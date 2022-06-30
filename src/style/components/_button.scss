@@ -1,0 +1,33 @@
+.button {
+    border: none;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1.25px;
+    color: $blue;
+    background: $light;
+    cursor: pointer;
+    font-family: $font;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+.outlined-button {
+    border: 1px solid  $light;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1.25px;
+    color: $light;
+    background: none;
+    cursor: pointer;
+    font-family: $font;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
